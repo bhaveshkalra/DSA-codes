@@ -1,1 +1,2 @@
 this is the second text file added
+i am learnig c

@@ -1,4 +1,5 @@
 this is our first git repository.this is our first commit.
+this is my first text file.
 
-first repository
+
 
