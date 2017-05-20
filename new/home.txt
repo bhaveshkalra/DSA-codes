@@ -1,3 +1,3 @@
-this is my second file of first git repository.
+this is my first file of first git repository and also the home page content of my website.
 
 
