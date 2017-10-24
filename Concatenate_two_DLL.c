@@ -15,9 +15,7 @@ struct node *even_last = NULL;
 
 struct node *odd = NULL;
 struct node *odd_last = NULL;
-
-struct node *current = NULL;
-
+struct node *cu
 //Create Linked List
 void insert(int data) {
    // Allocate memory for new node;
@@ -35,7 +33,6 @@ void insert(int data) {
       }
 	  else {
          current = even;
-
          while(current->next != NULL)
             current = current->next;
 
@@ -50,7 +47,6 @@ void insert(int data) {
          return;
       }else {
          current = odd;
-
          while(current->next!=NULL)
             current = current->next;
 
