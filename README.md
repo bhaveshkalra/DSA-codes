@@ -22,6 +22,7 @@
       <ul>
         <li><a href = "./Sorting" >Sorting in C</a></li>
         <li><a href = "./Sorts_java" >Sorting in Java</a></li>
+        <li><a href = "./Sorting[C++]" >Sorting in C++</a></li>
       </ul>
   </li>
   <li>Trees
