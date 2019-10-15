@@ -114,3 +114,8 @@ public static void main(String[] args)
 		System.out.println("LIST NOT FOUND"); 
 } 
 } 
+
+Output:
+
+LIST FOUND
+
