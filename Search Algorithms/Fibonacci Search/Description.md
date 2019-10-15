@@ -53,3 +53,20 @@ Let arr[0..n-1] be the input array and element to be searched be x.
 ## Illustration:
 Let us understand the algorithm with below example:
 ![Test Image 1](f1.png)
+
+Illustration assumption: 1-based indexing. Target element x is 85. Length of array n = 11.
+
+Smallest Fibonacci number greate than or equal to 11 is 13. As per our illustration, fibMm2 = 5, fibMm1 = 8, and fibM = 13.
+
+Now since the offset value is an index and all indices including it and below it have been eliminated, it only makes sense to add something to it. Since fibMm2 marks approximately one-third of our array, as well as the indices it marks are sure to be valid ones, we can add fibMm2 to offset and check the element at index i = min(offset + fibMm2, n).
+![Test Image 2](f2.png)
+
+Visualization:
+
+![Test Image 3](f3.png)
+
+## Time Complexity analysis:
+The worst case will occur when we have our target in the larger (2/3) fraction of the array, as we proceed to find it. In other words, we are eliminating the smaller (1/3) fraction of the array every time. We call once for n, then for(2/3) n, then for (4/9) n and henceforth.
+
+Consider that:
+![Test Image 4](f4.png)
