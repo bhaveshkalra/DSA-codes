@@ -28,7 +28,7 @@ A simple approach is to do linear search, i.e
     If x matches with an element, return the index.
     If x doesn’t match with any of elements, return -1.
 
-
+![Test Image 1](s1.png)
 
 The time complexity of above algorithm is O(n).
 
