@@ -1,0 +1,27 @@
+/* a node of the doubly linked list */
+/*struct node
+{
+  int data;
+  struct node *next;
+  struct node *prev;    
+};*/
+void reverse(struct node **head_ref)
+{
+   // Your code goes here
+   struct node *pre=NULL;
+   struct node *cur=*head_ref;
+   struct node *nxt;
+   while(cur->next!=NULL)
+   {
+       nxt=cur->next;
+       cur->next=pre;
+       if(pre)
+       pre->prev=cur;
+       pre=cur;
+       cur=nxt;
+   }
+   cur->next=pre;
+   if(pre)
+   pre->prev=cur;
+   *(head_ref)=cur;
+}
