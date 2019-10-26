@@ -50,8 +50,6 @@ int main() {
 	for(i=0;i<n;i++)
 	{	printf("%d\n",A[i]);
 	}
-/* Code to test the MergeSort function. */
-			n = sizeof(A)/sizeof(A[0]);
 
 	// Calling merge sort to sort the array.
 	MergeSort(A,n);
