@@ -74,7 +74,6 @@ int main()
     {
         printf("%d\n",arr[i]);
     }
-   n = sizeof(arr)/sizeof(arr[0]);
     heapSort(arr, n);
 
     printf( "Sorted array is \n");
